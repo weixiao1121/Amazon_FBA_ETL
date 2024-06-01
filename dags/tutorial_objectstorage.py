@@ -23,7 +23,7 @@ base = ObjectStoragePath("s3://aws_default@airflow-tutorial-data/")
 
 
 @dag(
-    dag_id="store_weather_d ",
+    dag_id="store_weater_data",
     schedule=None,
     start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
     catchup=False,
