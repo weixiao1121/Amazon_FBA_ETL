@@ -10,7 +10,6 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 import csv
 import json
 import time
-
 import pandas as pd
 import requests
 import seaborn as sns
